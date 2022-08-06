@@ -1,0 +1,197 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  overflow: auto;
+  min-height:150vh;
+  padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: rgba(215, 192, 43, 0.861);
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 0 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  transform: translateY(-0.1em);
+  transition: transform 0.1s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #a59225;
+  border-color: #a59225;
+  transform: translateY(0);
+
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  text-decoration: none;
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
+
+.navbarr{
+  display: flex;
+  top: 15%;
+  position: absolute;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px rgba(0, 0, 0, 0.25) solid;
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px inset;
+  list-style: none;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+}
+.navbarr a,.cad{
+  overflow: hidden;
+  padding-right: 1em;
+  padding-left: 1em;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-weight: 400;
+  display: block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navbarr a:hover{
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hmead{
+  display: contents;
+}
+
+.butt {
+  position: absolute;
+  right: 2em;
+  top: 2.7em;
+ --button_radius: 0.2em;
+ --button_color: white;
+ --button_outline_color: #000000;
+ font-size: 15px;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+ justify-self: flex-end
+
+}
+
+.button_top {
+ display: flex;
+ border: 1px solid var(--button_outline_color);
+ border-radius: var(--button_radius);
+ padding: 0.75em 1em;
+ background: var(--button_color);
+ color: var(--button_outline_color);
+ transform: translateY(-0.1em);
+ transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+ transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+ transform: translateY(0);
+}
