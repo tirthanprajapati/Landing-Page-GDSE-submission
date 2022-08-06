@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/loogo.ico" />
       </Head>
       <div className={styles.hmead}>
-        <Image src={logo2} height="90%" width="252%" />
+        <Image src={logo2} height="90%" width="252%"  />
         <button className={styles.butt}>
         <span className={styles.button_top}> Login / Sign Up
         </span>
@@ -34,7 +34,7 @@ export default function Home() {
           <a href="https://nextjs.org/docs" className={styles.card}>
           <Image src={img1} />
             <h2>Hello World Pro &rarr;</h2>
-            <p>Unlock all the pro features like debugging and solutions.</p>
+            <p>Unlock all the pro features like debugging and solutions.Lorem Ipsum Aliquam commodo, diam ac.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
