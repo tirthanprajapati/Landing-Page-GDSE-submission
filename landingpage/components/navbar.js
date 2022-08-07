@@ -1,26 +1,27 @@
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 function nav()
 {
     return(
         <nav>
         <ul className={styles.navbarr}>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/practice">Practice</a>
-            </li>
-            <li>
-                <a href="/compete">Complete</a>
-            </li>
-            <li>
-                <a href="/learn">Learn</a>
+            <li className={styles.cad}>
+                <Link href="/">Home</Link>
             </li>
             <li className={styles.cad}>
+                <Link  href="/practice">Practice</Link>
+            </li>
+            <li className={styles.cad}>
+                <Link  href="/compete">Complete</Link>
+            </li>
+            <li className={styles.cad}>
+                <Link  href="/learn">Learn</Link>
+            </li>
+            <li >
                 |
             </li>
-            <li>
-                <a href="/discuss">Discuss</a>
+            <li className={styles.cad}>
+                <Link  href="/discuss">Discuss</Link>
             </li>
         </ul>
         </nav>

@@ -6,7 +6,6 @@
 }
 
 .main {
-  overflow: auto;
   min-height:150vh;
   padding: 0 0;
   display: flex;
@@ -130,20 +129,25 @@
 
 .navbarr{
   display: flex;
-  top: 18%;
-  position: absolute;
-  left: 0;
-  align-items: center;
+  left: 28%;
   justify-content: center;
+  top: 18%;
+  width: 70em;
+  position: absolute;
   border: 1px rgba(0, 0, 0, 0.25) solid;
   box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px inset;
   list-style: none;
-  width: 100%;
-  overflow-x: hidden;
+  max-width: max-content;
   background-color: white;
 }
-.navbarr a,.cad{
-  overflow: hidden;
+.navbarr a{
+  text-decoration: none;
+  color: black;
+}
+.cad{
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
   padding-right: 1em;
   padding-left: 1em;
   align-items: center;
@@ -151,11 +155,10 @@
   text-decoration: none;
   font-size: 1.6em;
   font-weight: 400;
-  display: block;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.navbarr a:hover{
+.cad:hover{
   color: black;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -196,4 +199,17 @@ button:hover .button_top {
 
 button:active .button_top {
  transform: translateY(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .navbarr{
+    left: 0%;
+  }
+  
 }

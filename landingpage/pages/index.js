@@ -31,20 +31,20 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/" className={styles.card}>
           <Image src={img1} />
             <h2>Hello World Pro &rarr;</h2>
             <p>Unlock all the pro features like debugging and solutions.Lorem Ipsum Aliquam commodo, diam ac.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/" className={styles.card}>
           <Image src={img2} />
             <h2>Learn &rarr;</h2>
             <p>Learn more about algorithms and Data structure in an interactive course with problems!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="/"
             className={styles.card}
           >
           <Image src={img3} />
@@ -53,7 +53,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
             className={styles.card}
           >
           <Image src={img4} />
@@ -67,7 +67,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
