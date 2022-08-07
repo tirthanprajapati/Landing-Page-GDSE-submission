@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/navbar";
 import logo2 from "../public/logo2.png";
@@ -31,28 +32,28 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
           <Image src={img1} />
             <h2>Hello World Pro &rarr;</h2>
             <p>Unlock all the pro features like debugging and solutions.Lorem Ipsum Aliquam commodo, diam ac.</p>
-          </a>
+          </Link>
 
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
           <Image src={img2} />
             <h2>Learn &rarr;</h2>
             <p>Learn more about algorithms and Data structure in an interactive course with problems!</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/"
             className={styles.card}
           >
           <Image src={img3} />
             <h2>Staters 51 &rarr;</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo, diam ac fermentum rhoncus, erat nulla interdum metus, eget fermentum..</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/"
             className={styles.card}
           >
@@ -61,12 +62,12 @@ export default function Home() {
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis ligula dapibus elit semper hendrerit. In fermentum orci nisl, quis.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href="/"
           target="_blank"
           rel="noopener noreferrer"
@@ -75,7 +76,7 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </Link>
       </footer>
     </div>
   );
