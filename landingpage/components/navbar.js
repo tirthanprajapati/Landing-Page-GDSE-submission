@@ -21,7 +21,7 @@ function nav()
                 |
             </li>
             <li className={styles.cad}>
-                <Link  href="/discuss">Discuss</Link>
+                <Link  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Discuss</Link>
             </li>
         </ul>
         </nav>
