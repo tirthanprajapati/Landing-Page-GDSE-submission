@@ -36,7 +36,7 @@ export default function Home() {
               <Image src={img1} alt="Error" />
               <h2>Hello World Pro &rarr;</h2>
               <p>
-                {"Unlock all the pro features like debugging and solutions.LoremIpsum Aliquam commodo, diam ac."}
+                {"Unlock all the pro features like debugging and solutions.LoremIpsum Aliquam commodo"}
               </p>
             </a>
           </Link>
