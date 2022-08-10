@@ -1,7 +1,9 @@
 # Landing-Page-GDSE-submission
+<div align="center>
 <a href="https://github.com/tirthanprajapati/Landing-Page-GDSE-submission"><img src="https://socialify.git.ci/tirthanprajapati/Landing-Page-GDSE-submission/image?font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Diagonal%20Stripes&pulls=1&stargazers=1&theme=Dark" height="270" width="470" alt="Landing Page"></a>
 <ul>
-<a href="https://github.com/tirthanprajapati/Landing-Page-GDSE-submission"><img src="https://cdn.discordapp.com/attachments/890487043694665764/1005727129310347294/unknown.png" alt="project example"></a>
+<a href="https://github.com/tirthanprajapati/Landing-Page-GDSE-submission"><img src="https://cdn.discordapp.com/attachments/890487043694665764/1005727129310347294/unknown.png" height="270" width="470" alt="project example"></a>
+</div>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
